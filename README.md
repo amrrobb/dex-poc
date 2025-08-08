@@ -49,8 +49,8 @@ DEX/
 ### 1. Clone & Setup
 
 ```bash
-git clone <repository-url>
-cd DEX
+git clone https://github.com/amrrobb/dex-poc.git
+cd dex-poc
 ```
 
 ### 2. Smart Contracts
