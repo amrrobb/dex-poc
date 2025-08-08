@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:claude.ai)",
+      "Bash(forge init:*)",
+      "Bash(mkdir:*)",
+      "Bash(forge install:*)",
+      "Bash(git init:*)",
+      "Bash(rm:*)",
+      "Bash(forge build:*)"
+    ],
+    "deny": []
+  }
+}

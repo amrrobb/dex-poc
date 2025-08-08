@@ -1,0 +1,105 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Foundry/Solidity
+cache/
+out/
+broadcast/
+!broadcast/README.md
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.deployment
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.tsbuildinfo
+
+# Frontend specific
+.next/
+.nuxt/
+.output/
+.svelte-kit/
+coverage/
+.coverage/
+.vite/
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output/
+
+# Temporary folders
+tmp/
+temp/
+
+# Package manager lock files (keep one, ignore others)
+# npm
+# package-lock.json
+
+# yarn
+# yarn.lock
+
+# pnpm
+# pnpm-lock.yaml
+
+# Documentation build
+docs/build/
+
+# Local development
+.local/
+local/
+
+# Hardhat (if used alongside Foundry)
+artifacts/
+typechain/
+typechain-types/
+
+# Gas reports
+gas-report.txt
+.gas-snapshot
+
+# Foundry gas snapshots
+.gas-snapshot
+
+# Certificates and keys
+*.pem
+*.key
+*.crt
+
+# Deployment addresses (if sensitive)
+deployments/
+contracts.json
